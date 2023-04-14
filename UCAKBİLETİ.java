@@ -50,7 +50,7 @@ public class UCAKBİLETİ {
                     fiyat=fiyat-(fiyat*0.20);
                     System.out.println("Fiyat: "+fiyat+" tl");
                 }
-
+            default:System.out.println("hatalı seçim girdiniz lütfen yeniden başlatın!");
         }
     }
 }
